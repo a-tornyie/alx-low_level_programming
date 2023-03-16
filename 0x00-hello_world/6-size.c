@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - Prints the size of various data types
- * Return: 0 (This signifies success)
 */
 
 int main(void)
