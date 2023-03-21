@@ -15,7 +15,6 @@ int main(void)
 	unsigned int c;
 
 	printf("%u", a);
-	char_count += snprintf(NULL, 0, "%u", a);
 	for (i = 1; i < n; i++)
 	{
 		printf(", %u", b);
