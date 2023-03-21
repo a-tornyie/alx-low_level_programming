@@ -13,11 +13,14 @@ int main(void)
 	unsigned int a = 1;
 	unsigned int b = 2;
 	unsigned int c;
+	unsigned int char_count = 0;
 
 	printf("%u", a);
-	for (i = 1; i < n; i++)
+	char_count += snprintf(NULL, 0, "%u", a);
+	for (i = 1; char_count < 1244; i++)
 	{
 		printf(", %u", b);
+		char_count += snprintf(NULL, 0, ", %u", b);
 		c = a + b;
 		a = b;
 		b = c;
