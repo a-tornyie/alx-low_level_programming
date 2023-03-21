@@ -2,6 +2,7 @@
 /**
  * _islower - Checks for lowercase characters and
  * 1 if c is lowercase and 0 otherwisw
+ * @c: The character in ASCII code
  *
  * Return: 0 (Success)
  */
